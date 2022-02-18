@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background: -webkit-linear-gradient(45deg,#fab699,#ffa5bd,#eea8fb); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(45deg,#fab699,#ffa5bd,#eea8fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 600px;
+}
+
+.info-inner{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px 8px 8px 8px;
+    font-family: system-ui;
+    border: black 2px solid;
+}
+
+.name{
+    text-align: left;
+    font-size: 20px;
+}
+
+#email a{
+    color: black;
+    text-decoration: none;
+}
+
+#email a:hover{
+    color: blue;
+}
+
+#tg-logo {
+    margin-top: auto;
+    width: 14px;
+    height: 14px;
+    background: url("/images/telegram.svg") no-repeat;
+}
+
+#contacts{
+    width: 60%;
+    display: flex;
+    margin: 5px 0 0 0;
+    flex-direction: row;
+    text-align: center;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+}
